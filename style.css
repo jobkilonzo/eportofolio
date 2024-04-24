@@ -1,0 +1,155 @@
+body,
+h2,
+h1,
+div {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(90.01deg, rgba(139, 30, 248, 0.1) -36.74%, rgba(210, 81, 255, 0.1) 73.24%);
+
+}
+
+nav {
+    padding: 50px 52px 63px 34px;
+}
+
+.header-l {
+    float: left;
+    display: flex;
+    margin-left: 20px;
+}
+
+.header-r {
+    float: right;
+}
+
+.eportfolio-name {
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.logo img {
+    width: 50px;
+    height: 40px;
+    /* top: 42px;
+    left: 67px;
+    gap: 0px;
+    opacity: 0px; */
+
+}
+
+a {
+    padding: 30px;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+
+
+}
+
+.nav-btn {
+    width: 209px;
+    height: 71px;
+    top: 43px;
+    left: 1247px;
+    font-weight: 600;
+    font-size: 0.8em;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 20px;
+
+    border-color: #fff;
+    color: #fff;
+    background-color: hsl(293, 84%, 42%);
+}
+
+.hero {
+    margin: 10em;
+    align-content: space-between;
+    display: flex;
+    gap: 25em;
+}
+
+.hero-header {
+    margin-top: 2em;
+}
+
+.hello-name {
+    font-family: Lato;
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 93.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.hero-text {
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.58px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.about-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    margin: 2em 212px 0 119px;
+    font-family: Lato;
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 93.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.about-text {
+    margin: 5em 0 0 0;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.service-section {
+    height: 100vh;
+}
+
+.service-header {
+    font-family: Lato;
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 93.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+.service-images{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 150px;
+}
